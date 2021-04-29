@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Northwind-ReactJS-Website/static/css/main.9a26d71a.chunk.css",
-    "main.js": "/Northwind-ReactJS-Website/static/js/main.6ca72a55.chunk.js",
-    "main.js.map": "/Northwind-ReactJS-Website/static/js/main.6ca72a55.chunk.js.map",
-    "runtime-main.js": "/Northwind-ReactJS-Website/static/js/runtime-main.b13cc96b.js",
-    "runtime-main.js.map": "/Northwind-ReactJS-Website/static/js/runtime-main.b13cc96b.js.map",
-    "static/js/2.fa89913b.chunk.js": "/Northwind-ReactJS-Website/static/js/2.fa89913b.chunk.js",
-    "static/js/2.fa89913b.chunk.js.map": "/Northwind-ReactJS-Website/static/js/2.fa89913b.chunk.js.map",
-    "static/js/3.8a894b9a.chunk.js": "/Northwind-ReactJS-Website/static/js/3.8a894b9a.chunk.js",
-    "static/js/3.8a894b9a.chunk.js.map": "/Northwind-ReactJS-Website/static/js/3.8a894b9a.chunk.js.map",
-    "index.html": "/Northwind-ReactJS-Website/index.html",
-    "static/css/main.9a26d71a.chunk.css.map": "/Northwind-ReactJS-Website/static/css/main.9a26d71a.chunk.css.map",
-    "static/js/2.fa89913b.chunk.js.LICENSE.txt": "/Northwind-ReactJS-Website/static/js/2.fa89913b.chunk.js.LICENSE.txt",
-    "static/media/NorthwindLogo2_1200x1200.png": "/Northwind-ReactJS-Website/static/media/NorthwindLogo2_1200x1200.1ea07a0f.png"
+    "main.css": "/northwind-reactjs/static/css/main.9a26d71a.chunk.css",
+    "main.js": "/northwind-reactjs/static/js/main.6ca72a55.chunk.js",
+    "main.js.map": "/northwind-reactjs/static/js/main.6ca72a55.chunk.js.map",
+    "runtime-main.js": "/northwind-reactjs/static/js/runtime-main.82be50c9.js",
+    "runtime-main.js.map": "/northwind-reactjs/static/js/runtime-main.82be50c9.js.map",
+    "static/js/2.fa89913b.chunk.js": "/northwind-reactjs/static/js/2.fa89913b.chunk.js",
+    "static/js/2.fa89913b.chunk.js.map": "/northwind-reactjs/static/js/2.fa89913b.chunk.js.map",
+    "static/js/3.8a894b9a.chunk.js": "/northwind-reactjs/static/js/3.8a894b9a.chunk.js",
+    "static/js/3.8a894b9a.chunk.js.map": "/northwind-reactjs/static/js/3.8a894b9a.chunk.js.map",
+    "index.html": "/northwind-reactjs/index.html",
+    "static/css/main.9a26d71a.chunk.css.map": "/northwind-reactjs/static/css/main.9a26d71a.chunk.css.map",
+    "static/js/2.fa89913b.chunk.js.LICENSE.txt": "/northwind-reactjs/static/js/2.fa89913b.chunk.js.LICENSE.txt",
+    "static/media/NorthwindLogo2_1200x1200.png": "/northwind-reactjs/static/media/NorthwindLogo2_1200x1200.1ea07a0f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b13cc96b.js",
+    "static/js/runtime-main.82be50c9.js",
     "static/js/2.fa89913b.chunk.js",
     "static/css/main.9a26d71a.chunk.css",
     "static/js/main.6ca72a55.chunk.js"
