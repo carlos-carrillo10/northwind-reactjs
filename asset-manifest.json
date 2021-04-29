@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/northwind-reactjs/static/css/main.9a26d71a.chunk.css",
-    "main.js": "/northwind-reactjs/static/js/main.6ca72a55.chunk.js",
-    "main.js.map": "/northwind-reactjs/static/js/main.6ca72a55.chunk.js.map",
+    "main.css": "/northwind-reactjs/static/css/main.d549be09.chunk.css",
+    "main.js": "/northwind-reactjs/static/js/main.beb4790f.chunk.js",
+    "main.js.map": "/northwind-reactjs/static/js/main.beb4790f.chunk.js.map",
     "runtime-main.js": "/northwind-reactjs/static/js/runtime-main.82be50c9.js",
     "runtime-main.js.map": "/northwind-reactjs/static/js/runtime-main.82be50c9.js.map",
-    "static/js/2.fa89913b.chunk.js": "/northwind-reactjs/static/js/2.fa89913b.chunk.js",
-    "static/js/2.fa89913b.chunk.js.map": "/northwind-reactjs/static/js/2.fa89913b.chunk.js.map",
+    "static/js/2.5595ced3.chunk.js": "/northwind-reactjs/static/js/2.5595ced3.chunk.js",
+    "static/js/2.5595ced3.chunk.js.map": "/northwind-reactjs/static/js/2.5595ced3.chunk.js.map",
     "static/js/3.8a894b9a.chunk.js": "/northwind-reactjs/static/js/3.8a894b9a.chunk.js",
     "static/js/3.8a894b9a.chunk.js.map": "/northwind-reactjs/static/js/3.8a894b9a.chunk.js.map",
     "index.html": "/northwind-reactjs/index.html",
-    "static/css/main.9a26d71a.chunk.css.map": "/northwind-reactjs/static/css/main.9a26d71a.chunk.css.map",
-    "static/js/2.fa89913b.chunk.js.LICENSE.txt": "/northwind-reactjs/static/js/2.fa89913b.chunk.js.LICENSE.txt",
+    "static/css/main.d549be09.chunk.css.map": "/northwind-reactjs/static/css/main.d549be09.chunk.css.map",
+    "static/js/2.5595ced3.chunk.js.LICENSE.txt": "/northwind-reactjs/static/js/2.5595ced3.chunk.js.LICENSE.txt",
     "static/media/NorthwindLogo2_1200x1200.png": "/northwind-reactjs/static/media/NorthwindLogo2_1200x1200.1ea07a0f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82be50c9.js",
-    "static/js/2.fa89913b.chunk.js",
-    "static/css/main.9a26d71a.chunk.css",
-    "static/js/main.6ca72a55.chunk.js"
+    "static/js/2.5595ced3.chunk.js",
+    "static/css/main.d549be09.chunk.css",
+    "static/js/main.beb4790f.chunk.js"
   ]
 }
