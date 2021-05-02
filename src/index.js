@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './views/App';
+
+// line to add CSS files from npm
 import './css/index.css';
 import './css/tailwind.css';
-import App from './views/App';
+
+// line to add Font Awesome from npm
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import reportWebVitals from './reportWebVitals';
 
