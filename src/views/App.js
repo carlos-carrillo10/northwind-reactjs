@@ -3,6 +3,15 @@ import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from '../views/Home';
 import About from '../views/About';
 import PageError from '../views/PageError';
+import Categories from './Categories';
+import Customers from './Customers';
+import Employees from './Employees';
+import Orders from './Orders';
+import Products from './Products';
+import Region from './Region';
+import Shippers from './Shippers';
+import Territories from './Territories';
+import Suppliers from './Suppliers';
 
 function App() {
 //variables
@@ -50,7 +59,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
 
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/categories">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-th-large text-white"></i>
@@ -61,7 +70,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </div>
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/customers">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-user-friends text-white"></i>
@@ -72,7 +81,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </div>
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/employees">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-users text-white"></i>
@@ -83,7 +92,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </div>
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/orders">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-shopping-cart text-white"></i>
@@ -95,7 +104,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
 
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/products">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-boxes text-white"></i>
@@ -106,7 +115,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </div>
 
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/region">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-map-pin text-white"></i>                
@@ -116,7 +125,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </Link>
                       </div>
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/shippers">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-truck-moving text-white"></i>
@@ -126,7 +135,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </Link>
                       </div>
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/suppliers">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-people-carry text-white"></i>
@@ -136,7 +145,7 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                       </Link>
                       </div>
                       <div className="py-3 md:px-5 flex justify-center lg:justify-start">
-                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/home">
+                      <Link className="cursor-pointer lg:inline-block lg:align-baseline" to="/territories">
                       <div className="flex flex-col gap-2 lg:flex-row lg:gap-5">
                             <div className="w-50 lg:w-5 flex justify-center items-center">
                             <i class="fas fa-map-marked-alt text-white"></i>
@@ -177,6 +186,42 @@ var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
                   exact
                   path="/about"
                   component={About} />
+                  <Route
+                  exact
+                  path="/categories"
+                  component={Categories} />
+                  <Route
+                  exact
+                  path="/customers"
+                  component={Customers} />
+                  <Route
+                  exact
+                  path="/employees"
+                  component={Employees} />
+                  <Route
+                  exact
+                  path="/orders"
+                  component={Orders} />
+                  <Route
+                  exact
+                  path="/products"
+                  component={Products} />
+                  <Route
+                  exact
+                  path="/region"
+                  component={Region} />
+                  <Route
+                  exact
+                  path="/shippers"
+                  component={Shippers} />
+                   <Route
+                  exact
+                  path="/suppliers"
+                  component={Suppliers} />
+                  <Route
+                  exact
+                  path="/territories"
+                  component={Territories} />
                 <Route component={PageError} />
               </Switch>
             </div>
