@@ -1,0 +1,44 @@
+/* ---------------------------------- Vertical Navbar accordion ---------------------------------- */
+
+
+/* Tab content - closed */
+.tab-content {
+  max-height: 0;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Icon */
+.tab label::after {
+  display: block;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+/* Icon formatting - closed */
+.tab input[type=checkbox] + label::after {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  padding-left: 8px;
+  vertical-align: middle;
+  content: '\f0da';
+  font-weight: 600;
+}
+
+/* Icon formatting - open */
+.tab input[type=checkbox]:checked + label::after {
+  /*transform: rotate(90deg);*/
+  font-family: "Font Awesome 5 Free";
+  content: '\f0d7';
+}
+  #verticalNavbar::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
