@@ -4,8 +4,15 @@ import { Link } from 'react-router-dom';
 //variables
 var imageName = require('../assets/img/NorthwindLogo2_1200x1200.png')
 
-//Methods
+//functions
+function getCurrentYear()
+{
 
+  let newDate = new Date();
+  let year = newDate.getFullYear();
+  
+  return `${year}`
+  }
 
 class Menu extends Component {
   render() {
@@ -150,7 +157,7 @@ class Menu extends Component {
                 <p className="text-sm lg:text-normal">Repository</p>
                 </a> 
                 <label className="text-center text-white text-xs lg:col-span-3">
-                  Copyright © 2021, Carlos Carrillo
+                  Copyright © {getCurrentYear()}, Carlos Carrillo
                         </label>
               </div>
 
