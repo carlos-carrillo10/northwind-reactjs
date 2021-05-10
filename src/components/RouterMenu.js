@@ -20,7 +20,7 @@ class RouterMenu extends Component {
     <div className="font-sans antialiased h-screen w-full">
       <div className="flex w-full h-full">
         <Menu/>
-        <div className="flex flex-col pt-10 px-10 lg:px-20 w-full h-screen overflow-y-auto">
+        <div className="flex flex-col pt-10 px-10 lg:px-20 w-full h-screen overflow-y-auto bg-whitegray">
           <Switch>
             <Route exact
               path="/"

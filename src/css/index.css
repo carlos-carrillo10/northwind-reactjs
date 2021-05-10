@@ -5,3 +5,9 @@
 @tailwind utilities;
 
 
+.white-card
+{
+    @apply flex bg-white p-5 shadow-lg rounded-md;
+}
+
+
